@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* outline: 1px solid;*/
+}
+
+body {
+    background-color: rgb(153, 204, 153);
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
+header {
+    text-align: center;
+}
+
+.welcome {
+    /*border-bottom: 2px solid green;*/
+    background-image: linear-gradient( green, rgb(153, 204, 153));
+    
+}
+
+.navul {
+    display: flex;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.navul li {
+    padding: 0 20px;
+    margin: auto;
+    list-style-type: none;
+    
+}
+.navul a:link, a:visited {
+    background-color: rgb(153, 204, 153);
+    color: black;
+    border: 2px solid green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .navul a:hover, a:active {
+    background-color: green;
+    color: black;
+  }
