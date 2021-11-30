@@ -15,7 +15,6 @@ header {
 .welcome {
     /*border-bottom: 2px solid green;*/
     background-image: linear-gradient( green, rgb(153, 204, 153));
-    
 }
 
 .navul {
@@ -53,4 +52,10 @@ header {
   main .description {
       font-weight: bold;
       text-indent: 1.5em;
+      margin: 1em 2em 5em 2em;
+  }
+
+  main .example {
+    font-weight: bold;
+    margin: 0em 2em;
   }
