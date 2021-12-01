@@ -55,19 +55,19 @@ header {
     color: black;
 }
 
-main .description {
+main .about_description {
     font-weight: bold;
     text-indent: 1.5em;
     margin: 1em 2em 5em 2em;
 }
 
-  main .description a:link, a:visited {
+main .about_description a:link, a:visited {
       text-decoration: underline;
       color: green;
     
 }
 
-  main .description a:hover, a:active {
+  main .about_description a:hover, a:active {
     text-decoration: underline;
     background-color: none;
     color: black;
