@@ -28,33 +28,52 @@ header {
     list-style-type: none;
     
 }
-.navul a:link, a:visited {
+.navul li a:link, a:visited {
     
     border-radius: .5em;
     font-weight: bold;
     background-color: rgb(153, 204, 153);
     color: black;
-    border: 2px solid green;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-  }
+}
   
-  .navul a:hover, a:active {
+.navul li a:hover {
     font-weight: bold;
     border-radius: .5em;
     background-color: green;
     color: black;
-  }
+}
 
-  main .description {
-      font-weight: bold;
-      text-indent: 1.5em;
-      margin: 1em 2em 5em 2em;
-  }
+.navul li a:active {
+    font-weight: bold;
+    outline: 2px solid black;
+    border-radius: .5em;
+    background-color: green;
+    color: black;
+}
+
+main .description {
+    font-weight: bold;
+    text-indent: 1.5em;
+    margin: 1em 2em 5em 2em;
+}
+
+  main .description a:link, a:visited {
+      text-decoration: underline;
+      color: green;
+    
+}
+
+  main .description a:hover, a:active {
+    text-decoration: underline;
+    background-color: none;
+    color: black;
+}
 
   main .example {
     font-weight: bold;
     margin: 0em 2em;
-  }
+}
