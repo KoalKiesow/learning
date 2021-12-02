@@ -1,33 +1,41 @@
+/*all*/
+/*index.html*/
+/*contact.html*/
+/*about.html*/
+
+
+/*all*/
 * {
     margin: 0;
     padding: 0;
-    /* outline: 1px solid;*/
 }
-
+/*all*/
 body {
     background-color: rgb(153, 204, 153);
     font-family: 'M PLUS 1 Code', sans-serif;
 }
+/*all*/
 header {
     text-align: center;
 }
-
+/*all*/
 .welcome {
     background-image: linear-gradient( green, rgb(153, 204, 153));
 }
-
+/*all*/
 .navul {
     display: flex;
     align-items: center;
     margin-top: 1em;
 }
-
+/*all*/
 .navul li {
     padding: 0 20px;
     margin: auto;
     list-style-type: none;
     
 }
+/*all*/
 .navul li a:link, a:visited {
     
     border-radius: .5em;
@@ -39,14 +47,14 @@ header {
     text-decoration: none;
     display: inline-block;
 }
-  
+/*all*/ 
 .navul li a:hover {
     font-weight: bold;
     border-radius: .5em;
     background-color: green;
     color: black;
 }
-
+/*all*/
 .navul li a:active {
     font-weight: bold;
     outline: 2px solid black;
@@ -55,25 +63,70 @@ header {
     color: black;
 }
 
+
+/*index.html*/
+main .index_example {
+    font-weight: bold;
+    text-indent: 1.5em;
+    margin: 1em 2em 5em 2em;
+}
+/*index.html*/
+main .index_description {
+    font-weight: bold;
+    text-indent: 1.5em;
+    margin: 1em 2em 5em 2em;
+}
+/*index.html*/
+main .index_description a:link, a:visited {
+    text-decoration: none;
+    color: green;
+  
+}
+/*index.html*/
+main .index_description a:hover, a:active {
+  text-decoration: underline;
+  background-color: none;
+  color: black;
+}
+
+/*about.html*/
 main .about_description {
     font-weight: bold;
     text-indent: 1.5em;
     margin: 1em 2em 5em 2em;
 }
-
+/*about.html*/
 main .about_description a:link, a:visited {
-      text-decoration: underline;
+      text-decoration: none;
       color: green;
     
 }
-
-  main .about_description a:hover, a:active {
+/*about.html*/
+main .about_description a:hover, a:active {
     text-decoration: underline;
     background-color: none;
     color: black;
 }
 
-  main .example {
+
+/*contact.html*/
+main .address_contact {
     font-weight: bold;
-    margin: 0em 2em;
+    text-indent: 1.5em;
+    margin: 1em 2em 5em 2em;
+    text-align: center;
+    
 }
+/*contact.html*/
+main .address_contact a:link, a:visited {
+    text-decoration: none;
+    color: green;
+  
+}
+/*contact.html*/
+main .address_contact a:hover, a:active {
+  text-decoration: underline;
+  background-color: none;
+  color: black;
+}
+
